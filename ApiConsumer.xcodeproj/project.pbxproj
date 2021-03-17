@@ -12,18 +12,27 @@
 		C4147A4425FFE22200B16CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4147A4325FFE22200B16CB3 /* Assets.xcassets */; };
 		C4147A4725FFE22200B16CB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4147A4625FFE22200B16CB3 /* Preview Assets.xcassets */; };
 		C4147A5225FFE22200B16CB3 /* ApiConsumerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A5125FFE22200B16CB3 /* ApiConsumerTests.swift */; };
-		C4147A5D25FFE22200B16CB3 /* ApiConsumerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A5C25FFE22200B16CB3 /* ApiConsumerUITests.swift */; };
+		C4147A7225FFE4B600B16CB3 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A7125FFE4B600B16CB3 /* CreditCard.swift */; };
+		C4147A782600D7B700B16CB3 /* EmailSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A772600D7B700B16CB3 /* EmailSender.swift */; };
+		C4147A7C2600D7F100B16CB3 /* PaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A7B2600D7F100B16CB3 /* PaymentRequest.swift */; };
+		C4147A802600D83D00B16CB3 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A7F2600D83D00B16CB3 /* Sale.swift */; };
+		C4147A842600D8DB00B16CB3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A832600D8DB00B16CB3 /* Logger.swift */; };
+		C4147A882600D90A00B16CB3 /* PaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A872600D90A00B16CB3 /* PaymentResponse.swift */; };
+		C4147A8C2600D95600B16CB3 /* PaymentRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A8B2600D95600B16CB3 /* PaymentRestClient.swift */; };
+		C4147A902600D9DD00B16CB3 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A8F2600D9DD00B16CB3 /* PaymentService.swift */; };
+		C4147A942600DA0800B16CB3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147A932600DA0800B16CB3 /* Storage.swift */; };
+		C4147AA5260229B900B16CB3 /* EmailSenderDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AA3260229B900B16CB3 /* EmailSenderDummy.swift */; };
+		C4147AAA26022ACD00B16CB3 /* EmailSenderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AA826022ACD00B16CB3 /* EmailSenderMock.swift */; };
+		C4147AAF26022FBE00B16CB3 /* EmailSenderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AAD26022FBE00B16CB3 /* EmailSenderSpy.swift */; };
+		C4147ACB26025E7400B16CB3 /* PaymentRestClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147ACA26025E7400B16CB3 /* PaymentRestClientStub.swift */; };
+		C4147ACF26025ED000B16CB3 /* StorageDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147ACE26025ED000B16CB3 /* StorageDummy.swift */; };
+		C4147AD326025F2C00B16CB3 /* StorageFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AD226025F2C00B16CB3 /* StorageFake.swift */; };
+		C4147AE52602731200B16CB3 /* PaymentServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AE42602731200B16CB3 /* PaymentServiceTest.swift */; };
+		C4147AE92602739500B16CB3 /* LoggerDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4147AE82602739500B16CB3 /* LoggerDummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C4147A4E25FFE22200B16CB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4147A3425FFE22100B16CB3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4147A3B25FFE22100B16CB3;
-			remoteInfo = ApiConsumer;
-		};
-		C4147A5925FFE22200B16CB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C4147A3425FFE22100B16CB3 /* Project object */;
 			proxyType = 1;
@@ -42,9 +51,25 @@
 		C4147A4D25FFE22200B16CB3 /* ApiConsumerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiConsumerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4147A5125FFE22200B16CB3 /* ApiConsumerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConsumerTests.swift; sourceTree = "<group>"; };
 		C4147A5325FFE22200B16CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4147A5825FFE22200B16CB3 /* ApiConsumerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiConsumerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4147A5C25FFE22200B16CB3 /* ApiConsumerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConsumerUITests.swift; sourceTree = "<group>"; };
 		C4147A5E25FFE22200B16CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4147A7125FFE4B600B16CB3 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		C4147A772600D7B700B16CB3 /* EmailSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSender.swift; sourceTree = "<group>"; };
+		C4147A7B2600D7F100B16CB3 /* PaymentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRequest.swift; sourceTree = "<group>"; };
+		C4147A7F2600D83D00B16CB3 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		C4147A832600D8DB00B16CB3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C4147A872600D90A00B16CB3 /* PaymentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentResponse.swift; sourceTree = "<group>"; };
+		C4147A8B2600D95600B16CB3 /* PaymentRestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRestClient.swift; sourceTree = "<group>"; };
+		C4147A8F2600D9DD00B16CB3 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		C4147A932600DA0800B16CB3 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		C4147AA3260229B900B16CB3 /* EmailSenderDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSenderDummy.swift; sourceTree = "<group>"; };
+		C4147AA826022ACD00B16CB3 /* EmailSenderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSenderMock.swift; sourceTree = "<group>"; };
+		C4147AAD26022FBE00B16CB3 /* EmailSenderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSenderSpy.swift; sourceTree = "<group>"; };
+		C4147ACA26025E7400B16CB3 /* PaymentRestClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRestClientStub.swift; sourceTree = "<group>"; };
+		C4147ACE26025ED000B16CB3 /* StorageDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageDummy.swift; sourceTree = "<group>"; };
+		C4147AD226025F2C00B16CB3 /* StorageFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageFake.swift; sourceTree = "<group>"; };
+		C4147AE42602731200B16CB3 /* PaymentServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentServiceTest.swift; sourceTree = "<group>"; };
+		C4147AE82602739500B16CB3 /* LoggerDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerDummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +81,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C4147A4A25FFE22200B16CB3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4147A5525FFE22200B16CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,7 +105,6 @@
 			children = (
 				C4147A3C25FFE22100B16CB3 /* ApiConsumer.app */,
 				C4147A4D25FFE22200B16CB3 /* ApiConsumerTests.xctest */,
-				C4147A5825FFE22200B16CB3 /* ApiConsumerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +112,7 @@
 		C4147A3E25FFE22100B16CB3 /* ApiConsumer */ = {
 			isa = PBXGroup;
 			children = (
+				C4147A6F25FFE49600B16CB3 /* payment */,
 				C4147A3F25FFE22100B16CB3 /* ApiConsumerApp.swift */,
 				C4147A4125FFE22100B16CB3 /* ContentView.swift */,
 				C4147A4325FFE22200B16CB3 /* Assets.xcassets */,
@@ -115,6 +133,7 @@
 		C4147A5025FFE22200B16CB3 /* ApiConsumerTests */ = {
 			isa = PBXGroup;
 			children = (
+				C4147A7025FFE4A000B16CB3 /* payment */,
 				C4147A5125FFE22200B16CB3 /* ApiConsumerTests.swift */,
 				C4147A5325FFE22200B16CB3 /* Info.plist */,
 			);
@@ -128,6 +147,37 @@
 				C4147A5E25FFE22200B16CB3 /* Info.plist */,
 			);
 			path = ApiConsumerUITests;
+			sourceTree = "<group>";
+		};
+		C4147A6F25FFE49600B16CB3 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				C4147A7125FFE4B600B16CB3 /* CreditCard.swift */,
+				C4147A772600D7B700B16CB3 /* EmailSender.swift */,
+				C4147A7B2600D7F100B16CB3 /* PaymentRequest.swift */,
+				C4147A7F2600D83D00B16CB3 /* Sale.swift */,
+				C4147A832600D8DB00B16CB3 /* Logger.swift */,
+				C4147A872600D90A00B16CB3 /* PaymentResponse.swift */,
+				C4147A8B2600D95600B16CB3 /* PaymentRestClient.swift */,
+				C4147A8F2600D9DD00B16CB3 /* PaymentService.swift */,
+				C4147A932600DA0800B16CB3 /* Storage.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		C4147A7025FFE4A000B16CB3 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				C4147AA3260229B900B16CB3 /* EmailSenderDummy.swift */,
+				C4147AA826022ACD00B16CB3 /* EmailSenderMock.swift */,
+				C4147AAD26022FBE00B16CB3 /* EmailSenderSpy.swift */,
+				C4147ACA26025E7400B16CB3 /* PaymentRestClientStub.swift */,
+				C4147ACE26025ED000B16CB3 /* StorageDummy.swift */,
+				C4147AD226025F2C00B16CB3 /* StorageFake.swift */,
+				C4147AE42602731200B16CB3 /* PaymentServiceTest.swift */,
+				C4147AE82602739500B16CB3 /* LoggerDummy.swift */,
+			);
+			path = payment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +218,6 @@
 			productReference = C4147A4D25FFE22200B16CB3 /* ApiConsumerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4147A5725FFE22200B16CB3 /* ApiConsumerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4147A6725FFE22200B16CB3 /* Build configuration list for PBXNativeTarget "ApiConsumerUITests" */;
-			buildPhases = (
-				C4147A5425FFE22200B16CB3 /* Sources */,
-				C4147A5525FFE22200B16CB3 /* Frameworks */,
-				C4147A5625FFE22200B16CB3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C4147A5A25FFE22200B16CB3 /* PBXTargetDependency */,
-			);
-			name = ApiConsumerUITests;
-			productName = ApiConsumerUITests;
-			productReference = C4147A5825FFE22200B16CB3 /* ApiConsumerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +231,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					C4147A4C25FFE22200B16CB3 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = C4147A3B25FFE22100B16CB3;
-					};
-					C4147A5725FFE22200B16CB3 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = C4147A3B25FFE22100B16CB3;
 					};
@@ -223,7 +251,6 @@
 			targets = (
 				C4147A3B25FFE22100B16CB3 /* ApiConsumer */,
 				C4147A4C25FFE22200B16CB3 /* ApiConsumerTests */,
-				C4147A5725FFE22200B16CB3 /* ApiConsumerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4147A5625FFE22200B16CB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,7 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4147A8C2600D95600B16CB3 /* PaymentRestClient.swift in Sources */,
+				C4147A942600DA0800B16CB3 /* Storage.swift in Sources */,
+				C4147A7225FFE4B600B16CB3 /* CreditCard.swift in Sources */,
+				C4147A782600D7B700B16CB3 /* EmailSender.swift in Sources */,
+				C4147A7C2600D7F100B16CB3 /* PaymentRequest.swift in Sources */,
+				C4147A902600D9DD00B16CB3 /* PaymentService.swift in Sources */,
 				C4147A4225FFE22100B16CB3 /* ContentView.swift in Sources */,
+				C4147A842600D8DB00B16CB3 /* Logger.swift in Sources */,
+				C4147A882600D90A00B16CB3 /* PaymentResponse.swift in Sources */,
+				C4147A802600D83D00B16CB3 /* Sale.swift in Sources */,
 				C4147A4025FFE22100B16CB3 /* ApiConsumerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,15 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4147ACF26025ED000B16CB3 /* StorageDummy.swift in Sources */,
+				C4147AAF26022FBE00B16CB3 /* EmailSenderSpy.swift in Sources */,
+				C4147AE92602739500B16CB3 /* LoggerDummy.swift in Sources */,
+				C4147AE52602731200B16CB3 /* PaymentServiceTest.swift in Sources */,
+				C4147AD326025F2C00B16CB3 /* StorageFake.swift in Sources */,
+				C4147AA5260229B900B16CB3 /* EmailSenderDummy.swift in Sources */,
+				C4147AAA26022ACD00B16CB3 /* EmailSenderMock.swift in Sources */,
+				C4147ACB26025E7400B16CB3 /* PaymentRestClientStub.swift in Sources */,
 				C4147A5225FFE22200B16CB3 /* ApiConsumerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4147A5425FFE22200B16CB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4147A5D25FFE22200B16CB3 /* ApiConsumerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +316,6 @@
 			isa = PBXTargetDependency;
 			target = C4147A3B25FFE22100B16CB3 /* ApiConsumer */;
 			targetProxy = C4147A4E25FFE22200B16CB3 /* PBXContainerItemProxy */;
-		};
-		C4147A5A25FFE22200B16CB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C4147A3B25FFE22100B16CB3 /* ApiConsumer */;
-			targetProxy = C4147A5925FFE22200B16CB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,46 +524,6 @@
 			};
 			name = Release;
 		};
-		C4147A6825FFE22200B16CB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y94LCQ3K8B;
-				INFOPLIST_FILE = ApiConsumerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.ApiConsumerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApiConsumer;
-			};
-			name = Debug;
-		};
-		C4147A6925FFE22200B16CB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y94LCQ3K8B;
-				INFOPLIST_FILE = ApiConsumerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.ApiConsumerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApiConsumer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,15 +550,6 @@
 			buildConfigurations = (
 				C4147A6525FFE22200B16CB3 /* Debug */,
 				C4147A6625FFE22200B16CB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4147A6725FFE22200B16CB3 /* Build configuration list for PBXNativeTarget "ApiConsumerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4147A6825FFE22200B16CB3 /* Debug */,
-				C4147A6925FFE22200B16CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

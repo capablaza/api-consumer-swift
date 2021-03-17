@@ -19,8 +19,18 @@ class ApiConsumerTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        var paymentRequests:[PaymentRequest] = []
+        var expectedPaymentRequests:[PaymentRequest] = []
+        
+        let request = PaymentRequest(sale: Sale(), creditCard: CreditCard(name: "", serial: 823783))
+        
+        paymentRequests.append(request)
+        expectedPaymentRequests.append(request)
+        
+        let result = paymentRequests.difference(from: expectedPaymentRequests)
+        print(result.count == 0)
+        
+        XCTAssertEqual(0, result.count)
     }
 
     func testPerformanceExample() throws {
